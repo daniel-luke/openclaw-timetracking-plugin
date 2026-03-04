@@ -1,0 +1,13 @@
+{
+  "id": "openclaw-timetracking-plugin",
+  "name": "Time Tracking",
+  "description": "Track time across projects, query history, make corrections, and generate summaries using natural language.",
+  "version": "0.1.0",
+  "kind": "integration",
+  "skills": ["./skills"],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  }
+}

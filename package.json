@@ -1,0 +1,16 @@
+{
+  "name": "openclaw-timetracking-plugin",
+  "version": "0.1.0",
+  "description": "Time tracking plugin for OpenClaw — track sessions, query history, and generate summaries using natural language",
+  "openclaw": {
+    "extensions": ["./src/index.ts"],
+    "install": {
+      "localPath": "extensions/openclaw-timetracking-plugin",
+      "defaultChoice": "local"
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.0.0"
+  }
+}
